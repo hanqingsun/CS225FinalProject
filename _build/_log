@@ -1,0 +1,7 @@
+### Starting build.
+# Target: StringSetMap.ml.depends, tags: { package(ppx_deriving.std), extension:ml, file:StringSetMap.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package ppx_deriving.std -modules StringSetMap.ml > StringSetMap.ml.depends
++ ocamlfind ocamldep -package ppx_deriving.std -modules StringSetMap.ml > StringSetMap.ml.depends
+ocamlfind: Package `ppx_deriving.std' not found
+Command exited with code 2.
+# Compilation unsuccessful.
